@@ -116,12 +116,11 @@
 
   function rand(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
+  var _wScript = document.currentScript && document.currentScript.src;
   function resolveAsset(filename) {
-    var path = window.location.pathname;
-    var parts = path.split('/').filter(function (p) { return p.length > 0; });
-    if (parts.length > 0 && parts[parts.length - 1].indexOf('.') !== -1) parts.pop();
-    var prefix = parts.length > 0 ? parts.map(function () { return '..'; }).join('/') + '/' : '';
-    return prefix + 'assets/' + filename;
+    /* Resolve relative to this script (js/widgets.js), so it works at any URL depth */
+    if (_wScript) return new URL('../assets/' + filename, _wScript).href;
+    return 'assets/' + filename;
   }
 
   /* ══ CSS ══════════════════════════════════════════════════════ */

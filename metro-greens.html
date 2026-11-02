@@ -1618,16 +1618,3 @@
 
 </body>
 </html>
- First appearance after 1 minute
-      setTimeout(showRKPopup, 60000);
-      // Close on overlay background click
-      document.getElementById('rk-popup-overlay').addEventListener('click', function(e) {
-        if (e.target === this) this.style.display = 'none';
-      });
-      // Re-show every 1 minute (even if dismissed)
-      setInterval(showRKPopup, 60000);
-    })();
-  </script>
-
-</body>
-</html>

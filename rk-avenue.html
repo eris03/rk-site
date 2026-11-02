@@ -825,31 +825,3 @@
 
 </body>
 </html>
-ross Bangalore</p>
-      </div>
-    </div>
-  </div>
-  <style>
-    @keyframes popupIn {
-      0%   { opacity:0; transform:scale(0.7) translateY(30px); }
-      100% { opacity:1; transform:scale(1) translateY(0); }
-    }
-  </style>
-  <script>
-    (function() {
-      function showRKPopup() {
-        document.getElementById('rk-popup-overlay').style.display = 'flex';
-      }
-      // First appearance after 1 minute
-      setTimeout(showRKPopup, 60000);
-      // Close on overlay background click
-      document.getElementById('rk-popup-overlay').addEventListener('click', function(e) {
-        if (e.target === this) this.style.display = 'none';
-      });
-      // Re-show every 1 minute (even if dismissed)
-      setInterval(showRKPopup, 60000);
-    })();
-  </script>
-
-</body>
-</html>

@@ -1,0 +1,267 @@
+<!-- wp:html -->
+<!-- HERO -->
+<section class="hero" id="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="{{asset:hero-video.mp4}}" type="video/mp4" />
+  </video>
+  <div class="hero-overlay"></div>
+  <!-- Floating shapes -->
+  <div class="hero-float hf1"></div>
+  <div class="hero-float hf2"></div>
+  <div class="hero-float hf3"></div>
+  <div class="hero-float hf4"></div>
+  <div class="hero-float hf5"></div>
+  <div class="hero-float hf6"></div>
+
+  <div class="hero-content">
+    <div class="hero-logo-wrap" data-aos="fade-down" data-aos-delay="100">
+      <img src="[rk_logo_url]" alt="RK Developers" class="hero-logo-img"
+           onerror="this.style.display='none'" />
+    </div>
+
+    <div class="hero-badge" data-aos="fade-down" data-aos-delay="280">
+      <span>✨</span> Trusted by 1,500+ Families in Bangalore
+    </div>
+
+    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="420">
+      RK Developers –<br />
+      <span class="hero-gradient-text">Your Dream Home</span>
+    </h1>
+
+    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="560">
+      Architectural theme-based luxury residences crafted for those who<br class="hide-sm" />
+      demand more than just a home — they seek a <em>lifestyle</em>.
+    </p>
+
+    <div class="hero-actions" data-aos="fade-up" data-aos-delay="700">
+      <button class="btn-hero-primary" id="heroExploreBtn">
+        <i class="fas fa-th-large"></i> Explore Projects
+      </button>
+      <a href="{{url:contact}}" class="btn-hero-secondary">
+        <i class="fas fa-calendar-check"></i> Book a Site Visit
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-stats" data-aos="fade-up" data-aos-delay="900">
+    <div class="hero-stat">
+      <span class="stat-number" data-count="10">0</span><span class="stat-sfx">+</span>
+      <span class="stat-label">Years</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="hero-stat">
+      <span class="stat-number" data-count="20">0</span><span class="stat-sfx">+</span>
+      <span class="stat-label">Projects Completed</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="hero-stat">
+      <span class="stat-number" data-count="1600">0</span><span class="stat-sfx">+</span>
+      <span class="stat-label">Units Delivered</span>
+    </div>
+  </div>
+
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- OUR 2 PROJECTS -->
+<section class="our-projects" id="ourprojects" style="position:relative;overflow:hidden;">
+  <!-- Background collage with transparency -->
+  <div style="position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;">
+    <div style="position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;opacity:0.08;">
+      <img src="{{asset:metro green hero section.png}}" alt="" style="width:100%;height:100%;object-fit:cover;" />
+      <img src="{{asset:rk avenue/a1.png}}"            alt="" style="width:100%;height:100%;object-fit:cover;" />
+    </div>
+    <div style="position:absolute;inset:0;background:linear-gradient(160deg,#F0FDF4 0%,#EFF6FF 50%,#FFF7ED 100%);opacity:0.95;"></div>
+  </div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag orange">Our Projects</div>
+      <h2 class="section-title">Ongoing <span>Developments</span></h2>
+      <p class="section-desc">Two landmark projects redefining the Bangalore skyline</p>
+    </div>
+    [rk_ongoing_projects]
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- WHY US — REDESIGNED -->
+<section class="why-us-v2" id="why-us">
+  <!-- Decorative background orbs -->
+  <div class="wu-orb wu-orb1"></div>
+  <div class="wu-orb wu-orb2"></div>
+  <div class="wu-orb wu-orb3"></div>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="wu-header" data-aos="fade-up">
+      <div class="section-tag blue">Why Choose Us</div>
+      <h2 class="section-title">The RK <span>Difference</span></h2>
+      <p class="section-desc">What sets every RK Developers project apart — built on trust, quality, and a decade of delivery.</p>
+    </div>
+
+    <!-- Feature banner -->
+    <div class="wu-banner" data-aos="fade-up" data-aos-delay="100">
+      <div class="wu-banner-left">
+        <div class="wu-banner-eyebrow"><i class="fas fa-award"></i> Trusted Since [rk_since]</div>
+        <h3 class="wu-banner-title">Building Karnataka's most <em>trusted</em> land communities</h3>
+        <p class="wu-banner-body">From ecological farm plots in North Bengaluru to gated communities in Gauribidanur — every RK Developers project is delivered with full transparency, zero hidden charges, and a commitment that lasts beyond possession.</p>
+        <a href="{{url:contact}}" class="btn-primary orange" style="margin-top:8px;">Book a Free Consultation <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="wu-banner-right">
+        <a href="{{url:about}}" class="wu-mini-stat" style="text-decoration:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''"><span class="wu-ms-num">10+</span><span class="wu-ms-lbl">Years of Excellence</span></a>
+        <a href="#track-record" class="wu-mini-stat" style="text-decoration:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''"><span class="wu-ms-num">20+</span><span class="wu-ms-lbl">Projects Delivered</span></a>
+        <a href="{{url:about}}" class="wu-mini-stat" style="text-decoration:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''"><span class="wu-ms-num">1600+</span><span class="wu-ms-lbl">Units Handed Over</span></a>
+        <a href="{{url:about}}" class="wu-mini-stat" style="text-decoration:none;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''"><span class="wu-ms-num">300+</span><span class="wu-ms-lbl">Acres Developed</span></a>
+      </div>
+    </div>
+
+    <!-- 6 cards -->
+    <div class="wu-cards">
+
+      <div class="wu-card wu-card-orange" data-aos="fade-up" data-aos-delay="80">
+        <span class="wu-num">01</span>
+        <div class="wu-card-icon"><i class="fas fa-drafting-compass"></i></div>
+        <div class="wu-card-body">
+          <h4>Architectural Excellence</h4>
+          <p>Internationally acclaimed architects deliver iconic structures — each project a unique, enduring narrative.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+      <div class="wu-card wu-card-green" data-aos="fade-up" data-aos-delay="140">
+        <span class="wu-num">02</span>
+        <div class="wu-card-icon"><i class="fas fa-leaf"></i></div>
+        <div class="wu-card-body">
+          <h4>Sustainable Design</h4>
+          <p>Solar power, rainwater harvesting, and green building practices embedded in every single project.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+      <div class="wu-card wu-card-blue" data-aos="fade-up" data-aos-delay="200">
+        <span class="wu-num">03</span>
+        <div class="wu-card-icon"><i class="fas fa-certificate"></i></div>
+        <div class="wu-card-body">
+          <h4>Legally Clear Projects</h4>
+          <p>Complete legal transparency. Every project is fully registered with zero hidden charges.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+      <div class="wu-card wu-card-orange" data-aos="fade-up" data-aos-delay="260">
+        <span class="wu-num">04</span>
+        <div class="wu-card-icon"><i class="fas fa-headset"></i></div>
+        <div class="wu-card-body">
+          <h4>Lifetime After-Sales</h4>
+          <p>Dedicated customer support and maintenance services for the lifetime of your investment.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+      <div class="wu-card wu-card-green" data-aos="fade-up" data-aos-delay="320">
+        <span class="wu-num">05</span>
+        <div class="wu-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div class="wu-card-body">
+          <h4>Strategic Locations</h4>
+          <p>Near Bangalore's major IT corridors, schools, hospitals, and seamless metro connectivity.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+      <div class="wu-card wu-card-blue" data-aos="fade-up" data-aos-delay="380">
+        <span class="wu-num">06</span>
+        <div class="wu-card-icon"><i class="fas fa-rupee-sign"></i></div>
+        <div class="wu-card-body">
+          <h4>Best-in-Class Value</h4>
+          <p>Premium quality at competitive pricing with flexible payment plans and full bank loan support.</p>
+        </div>
+        <div class="wu-card-line"></div>
+      </div>
+
+    </div><!-- /wu-cards -->
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- STATS -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card" style="--card-color:#F97316" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fas fa-building stat-icon"></i>
+        <div class="stat-num" data-count="20">0</div><span class="stat-plus">+</span>
+        <div class="stat-lbl">Projects Completed</div>
+      </div>
+      <div class="stat-card" style="--card-color:#22C55E" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-home stat-icon"></i>
+        <div class="stat-num" data-count="1600">0</div><span class="stat-plus">+</span>
+        <div class="stat-lbl">Units Delivered</div>
+      </div>
+      <div class="stat-card" style="--card-color:#3B82F6" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fas fa-map-marker-alt stat-icon"></i>
+        <div class="stat-num" data-count="10">0</div><span class="stat-plus">+</span>
+        <div class="stat-lbl">Years of Excellence</div>
+      </div>
+      <div class="stat-card" style="--card-color:#22C55E" data-aos="zoom-in" data-aos-delay="400">
+        <i class="fas fa-expand-arrows-alt stat-icon"></i>
+        <div class="stat-num" data-count="300">0</div><span class="stat-plus">+</span>
+        <div class="stat-lbl">Acres Developed</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- ═══ PROJECTS WE'VE DELIVERED ═══ -->
+<section id="track-record" style="padding:96px 0;background:#F8FAFF;">
+  <div class="container">
+
+    <div class="section-header" data-aos="fade-up">
+      <div class="section-tag blue">Track Record &amp; Our Portfolio</div>
+      <h2 class="section-title">Projects We've <span>Delivered</span></h2>
+      <p class="section-desc">A decade of trust built across Bangalore's most strategic corridors — from farm plots to gated communities</p>
+    </div>
+
+    [rk_projects_grid]
+
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-content" data-aos="fade-up">
+      <h2>Ready to Find Your Dream Home?</h2>
+      <p>Our property experts are ready to guide you. Schedule a free consultation today.</p>
+      <div class="cta-actions">
+        <a href="{{url:contact}}" class="btn-primary orange">Book Free Consultation <i class="fas fa-arrow-right"></i></a>
+        <a href="tel:[rk_phone_link]" class="btn-outline-white">
+          <i class="fas fa-phone-alt"></i> [rk_phone]
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- ═══ INTERESTED IN A PROPERTY CTA ═══ -->
+<section style="background:linear-gradient(135deg,#1E293B 0%,#0F172A 100%);padding:56px 0;">
+  <div style="max-width:900px;margin:0 auto;padding:0 24px;text-align:center;">
+    <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:12px;">Interested in a Property?</h2>
+    <p style="color:rgba(255,255,255,0.72);font-size:1rem;line-height:1.7;max-width:580px;margin:0 auto 32px;">Our property experts are available right now. Book a <strong style="color:#F97316;">free site visit</strong> and find your dream home today.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="{{url:contact}}" style="background:linear-gradient(135deg,#F97316,#DC2626);color:#fff;padding:14px 28px;border-radius:50px;font-weight:600;font-size:0.95rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;">Book a Free Visit <i class="fas fa-arrow-right"></i></a>
+      <a href="tel:[rk_phone_link]" style="border:2px solid #F97316;color:#F97316;padding:14px 28px;border-radius:50px;font-weight:600;font-size:0.95rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;"><i class="fas fa-phone-alt"></i> Call Us Now</a>
+    </div>
+    <p style="margin-top:18px;font-size:0.8rem;color:rgba(255,255,255,0.4);">Trusted by 1,500+ families across Bangalore</p>
+  </div>
+</section>
+<!-- /wp:html -->

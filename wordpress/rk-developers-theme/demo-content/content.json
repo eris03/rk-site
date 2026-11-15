@@ -1,0 +1,401 @@
+{
+ "version": 1,
+ "pages": [
+  {
+   "slug": "home",
+   "title": "Home",
+   "template": "home",
+   "seo": {
+    "title": "RK Developers | Trusted Real Estate Developer in Bangalore",
+    "description": "RK Developers - Bangalore's most trusted real estate developer since [rk_since]. Over 20 projects and 1,500 happy families. Premium residential plots in Bengaluru.",
+    "keywords": "RK Developers, RK Developer Bangalore, real estate Bangalore, plots in Bangalore, Metro Greens, RK Avenue, property Bangalore, premium plots North Bangalore, residential plots Bangalore"
+   }
+  },
+  {
+   "slug": "about",
+   "title": "About Us",
+   "template": "about",
+   "seo": {
+    "title": "Our Story | RK Developers – Real Estate Bangalore Since [rk_since]",
+    "description": "Learn about RK Developers - Bangalore's trusted real estate developer since [rk_since]. 20+ projects and 1,500+ happy families served across Bengaluru, India.",
+    "keywords": "About RK Developers, RK Developer company, real estate developer Bangalore, RK Developers history, property developer Bangalore"
+   }
+  },
+  {
+   "slug": "projects",
+   "title": "Projects",
+   "template": "projects",
+   "seo": {
+    "title": "Projects by RK Developers | Plots, Villas & Apartments Bangalore",
+    "description": "Explore all RK Developers projects in Bangalore. Premium residential plots, farm plots and commercial spaces. 20+ projects delivered across Bengaluru.",
+    "keywords": "RK Developers projects, plots Bangalore, RK Avenue plots, Metro Greens Bangalore, RK Developer properties, new projects Bangalore"
+   }
+  },
+  {
+   "slug": "contact",
+   "title": "Contact",
+   "template": "contact",
+   "seo": {
+    "title": "Contact | RK Developers Bangalore",
+    "description": "Contact RK Developers – schedule a site visit, call us, or send us a message for all property inquiries in Bangalore.",
+    "keywords": ""
+   }
+  },
+  {
+   "slug": "metro-greens",
+   "title": "Metro Greens",
+   "template": "metro-greens",
+   "seo": {
+    "title": "Metro Greens by RK Developers | Farm Plots Near Bangalore",
+    "description": "Metro Greens by RK Developers - 200 acres of farm plots near Chikkaballapur, Bengaluru. Phase 1 open at Rs.999 per sqft with 30 plus world-class amenities.",
+    "keywords": "Metro Greens RK Developers, farm plots Bangalore, plots near KIA corridor, North Bangalore plots, farm plots near Bangalore, Metro Greens plots"
+   }
+  },
+  {
+   "slug": "rk-avenue",
+   "title": "RK Avenue",
+   "template": "rk-avenue",
+   "seo": {
+    "title": "RK Avenue | Premium Residential Plots near Gauribidanur",
+    "description": "RK Avenue - 36 premium gated residential plots in Alkapura Village, Gauribidanur by RK Developers. Legally clear, ready to register. From Rs.1,899 per sqft.",
+    "keywords": "RK Avenue, RK Avenue Gauribidanur, residential plots Gauribidanur, gated community plots Bangalore, RK Developers plots, Alkapura Village plots"
+   }
+  },
+  {
+   "slug": "rk-revenue",
+   "title": "RK Revenue",
+   "template": "rk-revenue",
+   "seo": {
+    "title": "RK Revenue | Commercial Spaces in Hebbal, Bangalore",
+    "description": "RK Revenue - Premium commercial offices and retail spaces in Hebbal, Bangalore by RK Developers. 180 units from Rs.65 Lakhs. Possession in March 2027.",
+    "keywords": "RK Revenue, commercial space Hebbal Bangalore, office space Bangalore, RK Developers commercial, retail space Bangalore, Hebbal commercial property"
+   }
+  }
+ ],
+ "projects": [
+  {
+   "slug": "metro-greens",
+   "title": "Metro Greens",
+   "status": "ongoing",
+   "icon": "fas fa-tree",
+   "size": "Phase 1 of 200 Acres",
+   "location": "Near Chikkaballapura",
+   "price": "₹999/sq.ft",
+   "page": "metro-greens",
+   "featured": true,
+   "accent": "green",
+   "card_badge": "Phase 1 Open",
+   "card_type": "Farm Plots",
+   "card_type_icon": "fas fa-tree",
+   "card_location": "Chikkaballapur, Beechaganahalli village",
+   "description": "A monumental 200-acre ecological paradise offering premium farm plots. Phase 1 spanning 11.5 acres — own your piece of nature near Bangalore's airport corridor.",
+   "card_features": "fas fa-expand-arrows-alt | 5.5–1 Acre Plots\nfas fa-rupee-sign | {price}\nfas fa-leaf | 30+ Amenities",
+   "image": "metro green hero section.png",
+   "logo": "metro green logo.png",
+   "gallery": [
+    "metro-green-gallery/mg1.jpeg",
+    "metro-green-gallery/mg2.jpeg",
+    "metro-green-gallery/mg3.jpeg",
+    "metro-green-gallery/mg4.jpeg",
+    "metro-green-gallery/mg5.jpeg",
+    "metro-green-gallery/mg6.jpeg",
+    "metro-green-gallery/mg7.png"
+   ],
+   "order": 0
+  },
+  {
+   "slug": "rk-avenue",
+   "title": "RK Avenue",
+   "status": "ongoing",
+   "icon": "fas fa-map-pin",
+   "size": "36 Premium Residential Plots",
+   "location": "Alkapura Village, Gauribidanur",
+   "price": "₹1,899/sq.ft",
+   "page": "rk-avenue",
+   "featured": true,
+   "accent": "orange",
+   "card_badge": "Ready to Register",
+   "card_type": "Residential Plots",
+   "card_type_icon": "fas fa-map-pin",
+   "card_location": "Alkapura Village, Gauribidanur",
+   "description": "An exclusive gated community of just 36 premium residential plots across 2.5 acres. Prime land, fully serviced, ready for registration and construction today.",
+   "card_features": "fas fa-home | 36 Exclusive Plots\nfas fa-rupee-sign | {price}\nfas fa-shield-alt | Gated Community",
+   "image": "rk avenue/avunue 104.png",
+   "gallery": [
+    "rk avenue/avnue 1 (1).jpg",
+    "rk avenue/avunue 2.png",
+    "rk avenue/avunue 3 (2).png",
+    "rk avenue/avunue 4.png",
+    "rk avenue/avunue 5 (2).png",
+    "rk avenue/avunue 6.png",
+    "rk avenue/avunue 7 (1).png",
+    "rk avenue/1a.png"
+   ],
+   "order": 1
+  },
+  {
+   "slug": "reality-residential-layout",
+   "title": "Reality Residential Layout",
+   "icon": "fas fa-map-marked-alt",
+   "size": "94 Residential Plots · 4 Acres",
+   "location": "Bagalur, North Bengaluru",
+   "gallery": [
+    "sj layout/s1.webp",
+    "sj layout/s2.webp",
+    "sj layout/s3.webp",
+    "sj layout/s5.jpeg"
+   ],
+   "status": "delivered",
+   "order": 2
+  },
+  {
+   "slug": "srk-grand",
+   "title": "SRK Grand",
+   "icon": "fas fa-map-marked-alt",
+   "size": "2 Acres",
+   "location": "Behind REVA University · BBMP B-Katha Property",
+   "gallery": [
+    "srk-grand/srk1.jpg",
+    "srk-grand/srk2.jpg",
+    "srk-grand/srk3.jpg"
+   ],
+   "status": "delivered",
+   "order": 3
+  },
+  {
+   "slug": "annapooreshwari-enclave",
+   "title": "Annapooreshwari Enclave",
+   "icon": "fas fa-home",
+   "size": "Residential Layout",
+   "location": "Nelamangala–Doddaballapura Road",
+   "gallery": [
+    "ana/ana1.jpg",
+    "ana/ana2.jpg",
+    "ana/ana3.jpg"
+   ],
+   "status": "delivered",
+   "order": 4
+  },
+  {
+   "slug": "royal-orchid",
+   "title": "Royal Orchid",
+   "icon": "fas fa-tree",
+   "size": "3.5 Acres Residential Layout",
+   "location": "Near Padukone-Dravid Centre for Sports Excellence · Prestige Marigold & Soundarya",
+   "gallery": [
+    "royalorchid/ro1.jpg",
+    "royalorchid/ro2.jpg",
+    "royalorchid/ro3.jpg"
+   ],
+   "status": "delivered",
+   "order": 5
+  },
+  {
+   "slug": "soundarya-garden",
+   "title": "Soundarya Garden",
+   "icon": "fas fa-leaf",
+   "size": "1 Acre Residential Layout",
+   "location": "Kukkanahalli Village, Hesaraghatta",
+   "gallery": [
+    "saun/sg1.jpg",
+    "saun/sg2.jpg",
+    "saun/sg3.jpg"
+   ],
+   "status": "delivered",
+   "order": 6
+  },
+  {
+   "slug": "soundarya-enclave",
+   "title": "Soundarya Enclave",
+   "icon": "fas fa-leaf",
+   "size": "Residential Layout · 1.5 Acres",
+   "location": "Kukkanahalli Village, Hesaraghatta",
+   "gallery": [
+    "saungar/se1.jpg",
+    "saungar/se2.jpg",
+    "saungar/se3.jpg"
+   ],
+   "status": "delivered",
+   "order": 7
+  },
+  {
+   "slug": "basaveshwara-layout",
+   "title": "Basaveshwara Layout",
+   "icon": "fas fa-map-pin",
+   "size": "Residential Layout · 11.7 Acres",
+   "location": "Kukkanahalli Village, Hesaraghatta",
+   "gallery": [
+    "basva/basva1.png",
+    "basva/bl1.jpg",
+    "basva/bl2.jpg",
+    "basva/bl3.jpg"
+   ],
+   "status": "delivered",
+   "order": 8
+  },
+  {
+   "slug": "skyline",
+   "title": "Skyline",
+   "icon": "fas fa-building",
+   "size": "1.5 Acres Residential Layout",
+   "location": "Near REVA University, Yelahanka Taluk, Bengaluru",
+   "gallery": [
+    "skyline/sky1.jpg",
+    "skyline/sky2.jpg",
+    "skyline/sky3.jpg"
+   ],
+   "status": "delivered",
+   "order": 9
+  },
+  {
+   "slug": "golden-gate",
+   "title": "Golden Gate",
+   "icon": "fas fa-star",
+   "size": "6.5 Acres Residential Layout",
+   "location": "IVC Road, Near Thindlu Circle",
+   "gallery": [
+    "golden/gg1.jpg",
+    "golden/gg2.jpg"
+   ],
+   "status": "delivered",
+   "order": 10
+  },
+  {
+   "slug": "aj-layout",
+   "title": "AJ Layout",
+   "icon": "fas fa-store",
+   "size": "3 Acres Commercial Layout",
+   "location": "Near REVA University, Bagalur",
+   "gallery": [
+    "aj-layout.png"
+   ],
+   "status": "delivered",
+   "order": 11
+  },
+  {
+   "slug": "garden-city",
+   "title": "Garden City",
+   "icon": "fas fa-city",
+   "size": "25 Acres Township Project",
+   "location": "Attached to STRR Highway, Near Devanahalli Town",
+   "status": "delivered",
+   "order": 12
+  },
+  {
+   "slug": "north-metro-city",
+   "title": "North Metro City",
+   "icon": "fas fa-road",
+   "size": "30 Acres Township Project",
+   "location": "Near Devanahalli DC Office",
+   "status": "delivered",
+   "order": 13
+  }
+ ],
+ "menus": {
+  "primary": {
+   "name": "Main Menu",
+   "items": [
+    {
+     "title": "Home",
+     "page": "home"
+    },
+    {
+     "title": "Our Projects",
+     "url": "#",
+     "description": "Choose a Project",
+     "children": [
+      {
+       "title": "Metro Greens",
+       "page": "metro-greens"
+      },
+      {
+       "title": "RK Avenue",
+       "page": "rk-avenue"
+      }
+     ]
+    },
+    {
+     "title": "About Us",
+     "page": "about"
+    },
+    {
+     "title": "Contact",
+     "page": "contact"
+    }
+   ]
+  },
+  "footer": {
+   "name": "Footer Quick Links",
+   "items": [
+    {
+     "title": "Home",
+     "page": "home"
+    },
+    {
+     "title": "Our Projects",
+     "url": "#"
+    },
+    {
+     "title": "About Us",
+     "page": "about"
+    },
+    {
+     "title": "Contact",
+     "page": "contact"
+    }
+   ]
+  }
+ },
+ "media": [
+  "aj-layout.png",
+  "ana/ana1.jpg",
+  "ana/ana2.jpg",
+  "ana/ana3.jpg",
+  "animation 1.mp4",
+  "basva/basva1.png",
+  "basva/bl1.jpg",
+  "basva/bl2.jpg",
+  "basva/bl3.jpg",
+  "golden/gg1.jpg",
+  "golden/gg2.jpg",
+  "hero-video.mp4",
+  "metro green hero section.png",
+  "metro green logo.png",
+  "metro-green-gallery/mg1.jpeg",
+  "metro-green-gallery/mg2.jpeg",
+  "metro-green-gallery/mg3.jpeg",
+  "metro-green-gallery/mg4.jpeg",
+  "metro-green-gallery/mg5.jpeg",
+  "metro-green-gallery/mg6.jpeg",
+  "metro-green-gallery/mg7.png",
+  "rk avenue/1a.png",
+  "rk avenue/a1.png",
+  "rk avenue/avnue 1 (1).jpg",
+  "rk avenue/avunue 104.png",
+  "rk avenue/avunue 2.png",
+  "rk avenue/avunue 3 (2).png",
+  "rk avenue/avunue 4.png",
+  "rk avenue/avunue 5 (2).png",
+  "rk avenue/avunue 6.png",
+  "rk avenue/avunue 7 (1).png",
+  "royalorchid/ro1.jpg",
+  "royalorchid/ro2.jpg",
+  "royalorchid/ro3.jpg",
+  "saun/sg1.jpg",
+  "saun/sg2.jpg",
+  "saun/sg3.jpg",
+  "saungar/se1.jpg",
+  "saungar/se2.jpg",
+  "saungar/se3.jpg",
+  "sj layout/s1.webp",
+  "sj layout/s2.webp",
+  "sj layout/s3.webp",
+  "sj layout/s5.jpeg",
+  "skyline/sky1.jpg",
+  "skyline/sky2.jpg",
+  "skyline/sky3.jpg",
+  "srk-grand/srk1.jpg",
+  "srk-grand/srk2.jpg",
+  "srk-grand/srk3.jpg"
+ ]
+}

@@ -1,0 +1,18 @@
+/* RK Developers — small additions for WordPress (not part of the original static CSS). */
+
+/* Keep the fixed navbar below the WordPress admin bar when logged in. */
+body.admin-bar .navbar { top: 32px; }
+@media screen and (max-width: 782px) { body.admin-bar .navbar { top: 46px; } }
+
+/* Plain pages (Privacy Policy etc.) and simple project pages */
+.rk-entry-section { padding: 72px 0 88px; background: #fff; }
+.rk-entry-content { max-width: 860px; color: #475569; font-size: 0.98rem; line-height: 1.8; }
+.rk-entry-content h2, .rk-entry-content h3 { font-family: var(--font-heading, 'Playfair Display', serif); color: #1E293B; margin: 28px 0 12px; }
+.rk-entry-content p, .rk-entry-content ul, .rk-entry-content ol { margin-bottom: 14px; }
+.rk-entry-content ul, .rk-entry-content ol { padding-left: 22px; }
+.rk-entry-content a { color: #F97316; }
+.rk-entry-content img { max-width: 100%; height: auto; }
+.rk-entry { padding: 18px 0; border-bottom: 1px solid #E2E8F0; }
+
+/* Screen-reader text used by WordPress */
+.screen-reader-text { border: 0; clip: rect(1px,1px,1px,1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; word-wrap: normal !important; }

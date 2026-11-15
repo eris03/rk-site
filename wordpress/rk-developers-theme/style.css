@@ -1,0 +1,18 @@
+/*
+Theme Name: RK Developers
+Theme URI: https://therkdevelopers.com/
+Author: RK Developers
+Description: Custom theme for the RK Developers website. It reproduces the original design (preloader, page transitions, animations, floating WhatsApp/Call/Message/AI buttons and project galleries) and makes the content editable from the dashboard: Projects, Pages, Menus and Appearance → Customize → RK Site Settings. After activating, open Appearance → RK Setup and click "Import demo content" to create every page, project, image and menu.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rk-developers
+*/
+
+/*
+ * The site's styles live in assets/css/ and are loaded with wp_enqueue_style()
+ * (see inc/setup.php). This file only carries the theme header WordPress needs.
+ */

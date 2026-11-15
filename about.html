@@ -40,9 +40,7 @@
   <link rel="apple-touch-icon" sizes="180x180"     href="assets/rk-apple-icon.png" />
   <link rel="manifest"                             href="manifest.json" />
   <meta name="theme-color" content="#F97316" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="vendor/fonts/fonts.css" />
   <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
   <link rel="stylesheet" href="vendor/aos/aos.css" />
   <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
@@ -288,8 +286,8 @@
 
   <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
   <script>(function(){const bar=document.getElementById('scroll-progress');if(bar)window.addEventListener('scroll',()=>{const st=window.scrollY,dh=document.documentElement.scrollHeight-window.innerHeight;bar.style.width=(dh>0?(st/dh)*100:0)+'%';},{passive:true});const g=document.getElementById('cursorGlow');if(g){let mx=window.innerWidth/2,my=window.innerHeight/2,cx=mx,cy=my;document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});(function a(){cx+=(mx-cx)*0.1;cy+=(my-cy)*0.1;g.style.left=cx+'px';g.style.top=cy+'px';requestAnimationFrame(a);})();}})();</script>
   <script src="js/widgets.js"></script>

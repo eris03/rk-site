@@ -1,6 +1,6 @@
 # RK Developers website: WordPress setup guide
 
-This guide is for the person who will run the RK Developers website. You don't need to know any code. Follow the steps in order. Setting up a new site takes about 30 minutes.
+This guide is for the person who will run the RK Developers website. You don't need to know any code. Follow the steps in order. Setting up takes about 20 minutes.
 
 **What you received**
 
@@ -9,23 +9,20 @@ This guide is for the person who will run the RK Developers website. You don't n
 | `rk-developers-theme.zip` | The website theme: the design, animations, pop-ups, floating WhatsApp/Call/Message/AI buttons, galleries. It also contains the import file and every photo and video. |
 | `SETUP-GUIDE.md` / `SETUP-GUIDE.pdf` | This guide. |
 
-The import file is inside the theme (`demo-content/content.json` plus the photos). You run it with one button, **Appearance → RK Setup** (step 3). It creates all 7 pages, the 14 projects with their photos, both menus and the home page.
+The import file is inside the theme (`demo-content/content.json` plus the photos). You run it with one button, **Appearance → RK Setup** (step 2). It creates all 7 pages, the 14 projects with their photos, both menus and the home page.
 
 ---
 
-## Step 1: Install WordPress on Hostinger
+## Before you start
 
-*Skip this step if WordPress is already installed.*
+WordPress is already installed on Hostinger. Check two things first:
 
-1. Log in to **hPanel** at [hpanel.hostinger.com](https://hpanel.hostinger.com).
-2. Go to **Websites → Add website** (on some plans, **Website → Auto Installer**). Choose **WordPress**.
-3. Pick the domain (for example `therkdevelopers.com`). Enter an admin e-mail, a username and a **strong password**, and write them down.
-4. Leave the language as English. When Hostinger offers a theme or AI builder, **skip it**.
-5. Wait until it says the installation is complete, then open `https://your-domain/wp-admin` and log in.
+1. You can log in at `https://your-domain/wp-admin` with an **Administrator** account.
+2. **SSL (the padlock):** in hPanel, **Security → SSL** shows SSL as *Active* for the domain. In WordPress, **Settings → General** shows both addresses starting with `https://`.
 
-> **SSL (the padlock):** in hPanel go to **Security → SSL** and make sure SSL is *Active* for the domain. Then in WordPress, open **Settings → General** and check that both addresses start with `https://`.
+> **Already have pages or another theme on this WordPress?** If pages with the addresses `/home/`, `/about/`, `/projects/`, `/contact/`, `/metro-greens/`, `/rk-avenue/` or `/rk-revenue/` already exist, the first import **replaces their text** with the RK pages. It also makes **Home** the front page. All other pages and posts are left alone. Take a backup first (hPanel → **Websites → Backups**).
 
-## Step 2: Upload and activate the theme
+## Step 1: Upload and activate the theme
 
 1. In WordPress go to **Appearance → Themes → Add New Theme → Upload Theme**.
 2. Click **Choose File** and select `rk-developers-theme.zip`, then **Install Now**.
@@ -36,7 +33,7 @@ The import file is inside the theme (`demo-content/content.json` plus the photos
 > - **Option A:** In hPanel go to **Advanced → PHP Configuration → PHP options**. Set `upload_max_filesize` and `post_max_size` to **256M** and save. Then try the upload again.
 > - **Option B:** In hPanel open **Files → File Manager** and go to `public_html/wp-content/themes/`. Upload the zip there, right-click it and choose **Extract**, then delete the zip. Then go to **Appearance → Themes** in WordPress and activate **RK Developers**.
 
-## Step 3: Import the content (one click)
+## Step 2: Import the content (one click)
 
 1. Go to **Appearance → RK Setup**. A blue box at the top of the dashboard also links there.
 2. Click **Import demo content**.
@@ -54,7 +51,7 @@ If the import stops (slow hosting), click the button again. It continues where i
 
 > **Running it again later is safe.** It keeps everything you have edited. Only tick **"Reset page texts and projects to the original website content"** if you really want to undo all your changes.
 
-## Step 4: Check the home page and menus
+## Step 3: Check the home page and menus
 
 Normally there is nothing to do here, because the import already set everything up. To check:
 
@@ -70,7 +67,7 @@ Normally there is nothing to do here, because the import already set everything 
 
 The **Projects** and **RK Revenue** pages exist but are not in the menu, the same as on the old site. To show them, add them in **Appearance → Menus**.
 
-## Step 5: Your contact details (one place for everything)
+## Step 4: Your contact details (one place for everything)
 
 Go to **Appearance → Customize → RK Site Settings**:
 

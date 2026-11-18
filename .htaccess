@@ -16,6 +16,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 # ── Redirect old /index.html → canonical / ──────────────────
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
 RewriteRule ^index\.html$  /  [L,R=301]
 
 # ── Pretty URLs (optional): /contact → /contact.html ────────

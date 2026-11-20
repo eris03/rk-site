@@ -7,7 +7,7 @@
 /* Form submissions go to FormSubmit.co → forwarded to RK Developers email */
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/rkdeveloper12345@gmail.com';
 
-document.addEventListener('DOMContentLoaded', () => {
+function rkInit() {
   initPageTransition();       // Page-to-page loading overlay
   initPreloader();
   initAOS();
@@ -31,7 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (page === 'contact') {
     initContactForm();
   }
-});
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', rkInit);
+} else {
+  rkInit();
+}
 
 // ─── Page Detection ───────────────────────────────────────────
 function detectPage() {
@@ -105,12 +110,17 @@ function initPreloader() {
   const el = document.getElementById('preloader');
   if (!el) return;
   document.body.style.overflow = 'hidden';
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      el.classList.add('hidden');
-      document.body.style.overflow = '';
-    }, 2400);
-  });
+  let done = false;
+  const hide = () => {
+    if (done) return;
+    done = true;
+    el.classList.add('hidden');
+    document.body.style.overflow = '';
+  };
+  // Hide shortly after the page has loaded; never keep visitors waiting more than 6 seconds
+  if (document.readyState === 'complete') setTimeout(hide, 2400);
+  else window.addEventListener('load', () => setTimeout(hide, 2400));
+  setTimeout(hide, 6000);
 }
 
 // ─── AOS ──────────────────────────────────────────────────────

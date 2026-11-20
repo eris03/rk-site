@@ -34,7 +34,7 @@
 
     /* ── All/Ongoing projects ── */
     { tags: ['projects','ongoing','current','available','what projects','all projects','developments','new'],
-      answer: '<strong>Ongoing Projects:</strong><br><br>🌿 <strong>Metro Greens</strong> — Farm plots, Chikkaballapur, Beechgahanalli Village. ₹999/sq.ft<br><br>🏡 <strong>RK Avenue</strong> — 36 residential plots, Gauribidanur. ₹1,899/sq.ft<br><br>🏢 <strong>RK Revenue</strong> — Commercial spaces, Hebbal, Bangalore. From ₹65 Lakhs',
+      answer: '<strong>Ongoing Projects:</strong><br><br>🌿 <strong>Metro Greens</strong> — Farm plots, Chikkaballapur, Beechgahanalli Village. ₹999/sq.ft<br><br>🏡 <strong>RK Avenue</strong> — Premium duplex villas, Gauribidanur. CUDA approved, SBI loan available<br><br>🏢 <strong>RK Revenue</strong> — Commercial spaces, Hebbal, Bangalore. From ₹65 Lakhs',
       chips: ['Metro Greens','RK Avenue','RK Revenue','Book a Site Visit'] },
 
     /* ── Metro Greens ── */
@@ -44,7 +44,7 @@
 
     /* ── RK Avenue ── */
     { tags: ['rk avenue','avenue','gauribidanur','residential','plots','gated community','alkapura'],
-      answer: '🏡 <strong>RK Avenue</strong><br><strong>Location:</strong> Alkapura Village, Gauribidanur<br><strong>Layout:</strong> 2.5 Acres | <strong>Plots:</strong> 36 Exclusive<br><strong>Price:</strong> ₹1,899/sq.ft<br><strong>Status:</strong> Ready to Register & Construct<br><br><strong>Amenities:</strong> 30-ft wide roads, underground electricity & water, drainage, 24/7 security guards, CCTV, landscaped park, children\'s play area, street lighting.<br><br><strong>Nearby:</strong> Someshwara Railway Station (5 min), Gauribidanur–Doddaballapura Highway (SH9), Gauribidanur DC Office.',
+      answer: '🏡 <strong>RK Avenue</strong><br><strong>Location:</strong> Alkapura Village, Gauribidanur<br><strong>Layout:</strong> 2.5 Acres | <strong>Plots:</strong> 36 Exclusive<br><strong>Villas:</strong> Premium duplex villas<br><strong>Approvals:</strong> CUDA approved, E-Khata, DC converted<br><strong>Loan:</strong> SBI loan available<br><strong>Access:</strong> Attached to Doddaballapur Highway<br><strong>Status:</strong> Ready to Register & Construct<br><br><strong>Amenities:</strong> 30-ft wide roads, underground electricity & water, drainage, 24/7 security guards, CCTV, landscaped park, children\'s play area, street lighting.<br><br><strong>Nearby:</strong> Someshwara Railway Station (5 min), Gauribidanur–Doddaballapura Highway (SH9), Gauribidanur DC Office.',
       chips: ['Pricing','Book Visit','Contact Us'] },
 
     /* ── RK Revenue ── */
@@ -59,7 +59,7 @@
 
     /* ── Pricing ── */
     { tags: ['price','pricing','rate','cost','how much','per sqft','sq ft','budget','affordable','cheap','expensive'],
-      answer: '💰 <strong>Current Pricing:</strong><br><br>🌿 <strong>Metro Greens</strong> (Farm plots, Chikkaballapur)<br>&nbsp;&nbsp;&nbsp;→ ₹999/sq.ft<br><br>🏡 <strong>RK Avenue</strong> (Residential plots, Gauribidanur)<br>&nbsp;&nbsp;&nbsp;→ ₹1,899/sq.ft<br><br>🏢 <strong>RK Revenue</strong> (Commercial, Hebbal)<br>&nbsp;&nbsp;&nbsp;→ Retail from ₹65L | Offices from ₹82L | Suites from ₹1.4Cr<br><br>Call <strong>+91 9663108999</strong> for exact plot size & total cost!',
+      answer: '💰 <strong>Current Pricing:</strong><br><br>🌿 <strong>Metro Greens</strong> (Farm plots, Chikkaballapur)<br>&nbsp;&nbsp;&nbsp;→ ₹999/sq.ft<br><br>🏡 <strong>RK Avenue</strong> (Duplex villas, Gauribidanur)<br>&nbsp;&nbsp;&nbsp;→ Price on request · SBI loan available<br><br>🏢 <strong>RK Revenue</strong> (Commercial, Hebbal)<br>&nbsp;&nbsp;&nbsp;→ Retail from ₹65L | Offices from ₹82L | Suites from ₹1.4Cr<br><br>Call <strong>+91 9663108999</strong> for exact plot size & total cost!',
       chips: ['Call Us','WhatsApp','Book a Site Visit'] },
 
     /* ── Location / address ── */

@@ -163,11 +163,12 @@
       </div>
     </div>
 
-    <div class="formcard">
+    <div class="formcard" id="enquire">
       <h2>Book your site visit</h2>
       <p class="sub">Share your details and our team will call you back with pricing, floor plans and availability.</p>
 
-      <form action="submit.php" method="post" novalidate>
+      <form action="submit.php" method="post">
+        <p id="formError" role="alert" style="display:none;background:#fdecea;color:#8a1c12;border:1px solid #f5c2bb;border-radius:9px;padding:10px 14px;font-size:.9rem;margin-bottom:16px;">Please enter your name and a valid 10-digit phone number.</p>
         <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <div class="field">
@@ -259,5 +260,8 @@
   </div>
 </footer>
 
+<script>
+  if (/[?&]error=1\b/.test(location.search)) document.getElementById('formError').style.display = 'block';
+</script>
 </body>
 </html>

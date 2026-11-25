@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank you — RK Developers</title>
+<meta name="robots" content="noindex">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18433497718"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18433497718');
+</script>
+
+<!-- Event snippet for Website Enquiry Form conversion page.
+     Counts only after a real form submission (submit.php adds ?sent=1),
+     and only once: the marker is removed so a refresh does not count again. -->
+<script>
+  if (/[?&]sent=1\b/.test(location.search)) {
+    gtag('event', 'conversion', {'send_to': 'AW-18433497718/Lyb2CKzLnL8dEPa049VE'});
+    if (history.replaceState) history.replaceState(null, '', location.pathname);
+  }
+</script>
+
+<style>
+  :root{--green:#13452e;--gold:#c9a84a;--cream:#f7f4ec;--muted:#5d6b63;--line:#e2ded2}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--cream);color:#1d1d1b;line-height:1.65;
+    min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;
+  }
+  .card{
+    background:#fff;border:1px solid var(--line);border-radius:18px;
+    max-width:560px;width:100%;padding:48px 40px;text-align:center;
+    box-shadow:0 18px 50px rgba(19,69,46,.10);
+  }
+  .tick{
+    width:72px;height:72px;border-radius:50%;background:var(--green);
+    display:flex;align-items:center;justify-content:center;margin:0 auto 26px;
+  }
+  .tick svg{width:34px;height:34px;stroke:var(--gold);stroke-width:3;fill:none;
+            stroke-linecap:round;stroke-linejoin:round}
+  h1{font-size:1.75rem;letter-spacing:-.02em;margin-bottom:12px}
+  p{color:var(--muted);margin-bottom:10px}
+  .next{
+    background:var(--cream);border:1px solid var(--line);border-radius:12px;
+    padding:20px;margin:28px 0 24px;text-align:left;
+  }
+  .next b{display:block;margin-bottom:8px;color:var(--green);font-size:.95rem}
+  .next ul{margin:0;padding-left:20px;font-size:.93rem;color:var(--muted)}
+  .next li{margin-bottom:5px}
+  .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  a.btn{
+    display:inline-block;text-decoration:none;font-weight:600;
+    padding:13px 26px;border-radius:999px;font-size:.96rem;
+  }
+  a.primary{background:var(--green);color:#fff}
+  a.ghost{background:#fff;color:var(--green);border:1px solid var(--green)}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="tick">
+      <svg viewBox="0 0 24 24"><polyline points="4 13 9 18 20 6"></polyline></svg>
+    </div>
+
+    <h1>Thank you &mdash; we&rsquo;ve got your details</h1>
+    <p>Our team will call you shortly about RK Avenue.</p>
+
+    <div class="next">
+      <b>What happens next</b>
+      <ul>
+        <li>A member of our sales team calls you to understand what you&rsquo;re looking for.</li>
+        <li>We share the floor plans, pricing and current availability.</li>
+        <li>We schedule a site visit at Alkapura Village, Gauribidanur, at a time that suits you.</li>
+      </ul>
+    </div>
+
+    <p style="margin-bottom:22px">Can&rsquo;t wait? Call us directly on <strong>+91 96631 08999</strong>.</p>
+
+    <div class="actions">
+      <a class="btn primary" href="tel:+919663108999">Call now</a>
+      <a class="btn ghost" href="rk-avenue-offer.html">Back to RK Avenue</a>
+    </div>
+  </div>
+</body>
+</html>

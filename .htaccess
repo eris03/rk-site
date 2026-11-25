@@ -4,6 +4,11 @@
 # ══════════════════════════════════════════════════════════════
 
 Options -Indexes
+
+# ── Keep enquiry backups and private files out of reach ──
+<FilesMatch "\.(log)$">
+  Require all denied
+</FilesMatch>
 RewriteEngine On
 
 # ── Force HTTPS ──────────────────────────────────────────────

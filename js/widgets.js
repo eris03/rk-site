@@ -361,14 +361,24 @@
 
     var vid = document.createElement('video');
     vid.id = 'rkBotVideo';
-    vid.src = resolveAsset('robo.mp4');
+    // Muted + playsinline must be set before the source for phones to allow autoplay.
+    vid.muted = true;
+    vid.defaultMuted = true;
+    vid.setAttribute('muted', '');
+    vid.setAttribute('playsinline', '');
+    vid.setAttribute('webkit-playsinline', '');
     vid.autoplay = true;
     vid.loop = true;
-    vid.muted = true;
-    vid.setAttribute('playsinline', '');
     vid.setAttribute('preload', 'auto');
+    // Still image of the robot, shown whenever the phone will not play the video
+    // (e.g. iPhone Low Power Mode or data saver), so the button is never empty.
+    vid.poster = resolveAsset('robo-poster.webp');
+    vid.src = resolveAsset('robo.mp4');
 
     botBtn.appendChild(vid);
+    var tryPlay = function () { var p = vid.play(); if (p && p.catch) p.catch(function () {}); };
+    tryPlay();
+    document.addEventListener('touchstart', tryPlay, { once: true, passive: true });
     botBtn.addEventListener('click', function (e) {
       e.stopPropagation();
       showClickLabel(botBtn, 'AI Assistant', 'rk-bot-label');

@@ -487,7 +487,12 @@ function initContactForm() {
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({ ...payload, _subject: 'New Enquiry – RK Developers Website', _captcha: 'false' })
       });
-      await res.json();
+      const data = await res.json().catch(() => ({}));
+      // Count a Google Ads conversion only when FormSubmit confirms the enquiry was accepted
+      // (not in the catch below, which also shows the thank-you message on failure).
+      if (res.ok && String(data.success) === 'true' && typeof gtag === 'function') {
+        gtag('event', 'conversion', {'send_to': 'AW-18433497718/Lyb2CKzLnL8dEPa049VE'});
+      }
       form.style.display = 'none';
       const sEl = document.getElementById('formSuccess');
       if (sEl) {
